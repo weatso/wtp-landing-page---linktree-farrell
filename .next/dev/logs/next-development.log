@@ -1,0 +1,711 @@
+[00:00:32.654] Server  LOG     ✓ Ready in 20.5s
+[00:00:35.913] Server  LOG     ○ Compiling / ...
+[00:01:03.209] Server  LOG     ○ Compiling /_not-found/page ...
+[00:01:03.850] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:18.977] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/image/photo/porto-3.jpg" "received" null
+[00:01:19.464] Server  ERROR   Error: The requested resource isn't a valid image.
+[00:01:19.592] Browser WARN    Image with src "/image/photo/porto-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:19.592] Browser WARN    Image with src "/image/photo/porto-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:19.594] Browser WARN    Image with src "/image/photo/porto-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:19.595] Browser WARN    Image with src "/image/photo/porto-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:19.595] Browser WARN    Image with src "/image/photo/porto-5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:19.595] Browser WARN    Image with src "/image/photo/porto-6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:19.595] Browser WARN    Image with src "/image/photo/porto-7.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:19.595] Browser WARN    Image with src "/image/photo/porto-8.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:19.595] Browser WARN    Image with src "/image/photo/porto-9.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:19.595] Browser WARN    Image with src "/image/photo/porto-10.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:20.373] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:45.577] Browser WARN    Building schema for synchronization took more than 1 second (6027.40000000014ms)
+[00:18:11.707] Browser ERROR   {}
+[00:18:11.709] Browser ERROR   {}
+[00:18:11.709] Browser ERROR   {}
+[00:18:11.709] Browser ERROR   {}
+[00:18:11.709] Browser ERROR   {}
+[01:19:34.641] Browser ERROR   {}
+[01:19:37.606] Browser ERROR   {}
+[01:19:37.606] Browser ERROR   {}
+[01:19:37.606] Browser ERROR   {}
+[01:19:46.604] Browser ERROR   {}
+[01:20:06.603] Browser ERROR   {}
+[01:54:18.614] Browser ERROR   {}
+[01:54:18.622] Browser ERROR   {}
+[02:26:22.321] Server  LOG     ✓ Compiled in 6.8s
+[02:26:22.569] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:26:23.579] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:26:45.657] Server  ERROR   ⨯ ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+
+
+[02:26:46.574] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:26:46.575] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:26:48.699] Server  LOG     ○ Compiling /_error ...
+[02:26:55.723] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:26:55.723] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:26:55.723] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:26:55.728] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:26:56.206] Browser ERROR   uncaughtError: Error: ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+
+
+[02:26:56.583] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:26:56.583] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:26:56.609] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:26:56.610] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:26:56.659] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:26:56.659] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:28:20.748] Server  ERROR   ⨯ ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+
+
+[02:28:21.085] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:28:21.085] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:28:21.500] Browser ERROR   uncaughtError: Error: ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+
+
+[02:28:21.580] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:28:21.580] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:28:21.580] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:28:21.581] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:28:21.581] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:28:21.581] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:28:21.844] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:28:21.844] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:28:22.608] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:28:22.616] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:30:19.094] Server  LOG     ✓ Compiled in 2.4s
+[02:30:19.121] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:30:25.000] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:30:26.290] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:30:26.290] Browser WARN    Image with src "/image/photo/porto-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:31:02.679] Browser WARN    Image with src "/image/photo/porto-5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:31:02.679] Browser WARN    Image with src "/image/photo/porto-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:31:02.679] Browser WARN    Image with src "/image/photo/porto-6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:31:02.679] Browser WARN    Image with src "/image/photo/porto-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:31:02.679] Browser WARN    Image with src "/image/photo/porto-7.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:31:03.088] Browser WARN    Image with src "/image/photo/porto-8.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:31:17.379] Browser WARN    Image with src "/image/photo/porto-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:32:01.596] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:32:02.070] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:32:02.070] Browser WARN    Image with src "/image/photo/porto-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:32:06.988] Browser WARN    Image with src "/image/photo/porto-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:32:06.988] Browser WARN    Image with src "/image/photo/porto-5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:32:07.719] Browser WARN    Image with src "/image/photo/porto-6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:32:13.099] Browser WARN    Image with src "/image/photo/porto-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:32:13.099] Browser WARN    Image with src "/image/photo/porto-7.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:32:13.244] Browser WARN    Image with src "/image/photo/porto-8.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:32:13.984] Browser WARN    Image with src "/image/photo/porto-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:33:35.981] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:33:36.722] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[02:33:42.807] Browser WARN    Image with src "/image/photo/porto-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:33:42.807] Browser WARN    Image with src "/image/photo/porto-5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:33:45.628] Browser WARN    Image with src "/image/photo/porto-6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:34:05.952] Browser WARN    Image with src "/image/photo/porto-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:34:06.385] Browser WARN    Image with src "/image/photo/porto-7.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:37:37.569] Server  LOG     ✓ Compiled in 1120ms
+[02:37:37.862] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:37:38.586] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:37:38.590] Browser ERROR   ./components/Process.tsx:195:1
+Parsing ecmascript source code failed
+  193 |   );
+  194 | }
+> 195 | >
+      | ^
+  196 |   );
+  197 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:37:44.937] Server  LOG     ✓ Compiled in 685ms
+[02:38:05.654] Server  LOG     ✓ Finished filesystem cache database compaction in 16.7s
+[02:44:52.575] Server  LOG     ✓ Compiled in 912ms
+[02:44:52.641] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./components/Process.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:44:52.701] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./components/Process.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:44:53.045] Server  LOG     ✓ Compiled in 170ms
+[02:44:53.069] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./components/Process.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:44:53.077] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./components/Process.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:44:56.906] Server  LOG     ✓ Compiled in 1055ms
+[02:44:58.058] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./components/Process.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:44:58.061] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./components/Process.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:45:01.157] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:45:01.571] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:45:01.926] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ScrollAndFocusHandler segmentPath={[...]}>
+      <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+        <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+          <LoadingBoundary name="/" loading={null}>
+            <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+              <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                      <SegmentViewNode type="page" pagePath="page.tsx">
+                        <SegmentTrieNode>
+                        <Home>
+                          <Hero>
+                          <Marquee>
+                          <Services>
+                          <Home>
+                            <Process>
+                              <section className="relative p...">
++                               <div
++                                 className="absolute top-0 right-0 w-[40%] h-[40%] bg-[#fef0f5]/50 blur-[120px] round..."
++                               >
+-                               {"      "}
+                                ...
+                          ...
+                      ...
+                    ...
+        ...
+
+[02:45:01.926] Browser WARN    Image with src "/image/photo/porto-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:45:01.926] Browser WARN    Image with src "/image/photo/porto-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:45:01.926] Browser WARN    Image with src "/image/photo/porto-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:45:01.926] Browser WARN    Image with src "/image/photo/porto-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:45:01.926] Browser WARN    Image with src "/image/photo/porto-5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:45:01.926] Browser WARN    Image with src "/image/photo/porto-6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:45:01.926] Browser WARN    Image with src "/image/photo/porto-7.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:45:01.926] Browser WARN    Image with src "/image/photo/porto-8.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:45:01.926] Browser WARN    Image with src "/image/photo/porto-9.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:45:01.926] Browser WARN    Image with src "/image/photo/porto-10.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:45:03.278] Browser WARN    Image with src "/image/photo/porto-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:45:19.262] Server  LOG     ✓ Compiled in 146ms
+[02:47:45.224] Server  LOG     ✓ Compiled in 529ms
+[02:47:47.275] Browser WARN    Image with src "/image/photo/porto-6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:47:47.275] Browser WARN    Image with src "/image/photo/porto-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:47:47.275] Browser WARN    Image with src "/image/photo/porto-5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:57:19.189] Server  LOG     ✓ Compiled in 1092ms
+[02:57:19.441] Browser ERROR   ./components/Process.tsx:73:28
+Parsing ecmascript source code failed
+  71 |               Dari ide menjadi <br />
+  72 |               <span className="font-serif italic text-stone-400">kenyataan.</span>
+> 73 |             motion.h2>
+     |                            ^
+  74 |           </div>
+  75 |           
+  76 |           <motion.div
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:57:19.575] Browser ERROR   ./components/Process.tsx:73:28
+Parsing ecmascript source code failed
+  71 |               Dari ide menjadi <br />
+  72 |               <span className="font-serif italic text-stone-400">kenyataan.</span>
+> 73 |             motion.h2>
+     |                            ^
+  74 |           </div>
+  75 |           
+  76 |           <motion.div
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:57:20.574] Browser ERROR   ./components/Process.tsx:73:28
+Parsing ecmascript source code failed
+  71 |               Dari ide menjadi <br />
+  72 |               <span className="font-serif italic text-stone-400">kenyataan.</span>
+> 73 |             motion.h2>
+     |                            ^
+  74 |           </div>
+  75 |           
+  76 |           <motion.div
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import trace:
+  Server Component:
+    ./components/Process.tsx
+    ./app/page.tsx
+[02:57:21.552] Server  LOG     ✓ Compiled in 181ms
+[02:59:17.140] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:59:17.559] Browser WARN    Image with src "/image/photo/porto-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:59:17.559] Browser WARN    Image with src "/image/photo/porto-5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:59:17.559] Browser WARN    Image with src "/image/photo/porto-6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:59:19.362] Browser WARN    Image with src "/image/photo/porto-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:59:23.665] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:59:23.918] Browser WARN    Image with src "/image/photo/porto-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:59:23.918] Browser WARN    Image with src "/image/photo/porto-5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:59:23.918] Browser WARN    Image with src "/image/photo/porto-6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:59:32.143] Browser WARN    Image with src "/image/photo/porto-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:18.360] Browser WARN    Image with src "/image/photo/porto-7.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:18.702] Browser WARN    Image with src "/image/photo/porto-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:18.942] Browser WARN    Image with src "/image/photo/porto-8.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:26.470] Browser WARN    Image with src "/image/photo/porto-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:27.877] Browser WARN    Image with src "/image/photo/porto-10.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:00:27.877] Browser WARN    Image with src "/image/photo/porto-9.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:01:22.922] Server  LOG     ✓ Compiled in 928ms
+[03:01:23.801] Browser WARN    Image with src "/image/photo/porto-7.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:01:23.801] Browser WARN    Image with src "/image/photo/porto-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:01:37.103] Server  LOG     ✓ Compiled in 70ms
+[03:07:28.457] Server  LOG     ✓ Compiled in 1523ms
+[03:09:43.942] Server  LOG     ✓ Compiled in 133ms
+[03:09:46.468] Server  LOG     ✓ Compiled in 703ms
+[03:12:17.287] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:12:23.575] Browser WARN    Building schema for synchronization took more than 1 second (1544ms)

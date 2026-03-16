@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Farrell/OneDrive/Desktop/wtp-company-profile/app/studio/%5B%5B...tool%5D%5D/page.tsx"],"sourcesContent":["/**\r\n * This route is responsible for the built-in authoring environment using Sanity Studio.\r\n * All routes under your studio path is handled by this file using Next.js' catch-all routes:\r\n * https://nextjs.org/docs/routing/dynamic-routes#catch-all-routes\r\n *\r\n * You can learn more about the next-sanity package here:\r\n * https://github.com/sanity-io/next-sanity\r\n */\r\n\r\nimport {NextStudio} from 'next-sanity/studio'\r\nimport config from '../../../../sanity.config'\r\n\r\nexport default function StudioPage() {\r\n  return <NextStudio config={config} />\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;;;;;;CAOC,GAED;;;;;;;;;AAGe,SAAS;IACtB,qBAAO,8OAAC,uLAAU;QAAC,QAAQ;;;;;;AAC7B"}}]
+}
