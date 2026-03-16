@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: "WTP — Event Organizer",
   description:
     "We craft extraordinary events. Parties, prom nights, corporate gatherings, and beyond.",
+  icons: {
+    icon: "/image/logo-wtp/logo-wtp.jpg",
+  },
 };
 
 export default function RootLayout({

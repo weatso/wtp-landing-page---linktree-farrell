@@ -779,3 +779,30 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [04:53:52.019] Browser WARN    Image with src "/image/photo/porto-9.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [04:55:01.588] Browser ERROR   {}
 [04:55:01.588] Browser ERROR   {}
+[05:03:28.522] Server  LOG     ✓ Compiled in 849ms
+[05:03:28.595] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[05:03:31.366] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:08:01.552] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:08:01.883] Browser WARN    Image with src "/image/photo/porto-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:08:01.883] Browser WARN    Image with src "/image/photo/porto-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:08:01.883] Browser WARN    Image with src "/image/photo/porto-3.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:08:01.883] Browser WARN    Image with src "/image/photo/porto-5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:08:01.883] Browser WARN    Image with src "/image/photo/porto-6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:08:01.883] Browser WARN    Image with src "/image/photo/porto-7.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:08:01.883] Browser WARN    Image with src "/image/photo/porto-8.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:08:02.526] Browser WARN    Image with src "/image/photo/porto-1.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[05:09:20.963] Server  LOG     ✓ Compiled in 1051ms
+[05:09:47.271] Server  WARN    The default export of @sanity/image-url has been deprecated. Use the named export `createImageUrlBuilder` instead.
+[05:09:47.761] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:09:47.761] Browser WARN    The default export of @sanity/image-url has been deprecated. Use the named export `createImageUrlBuilder` instead.
+[05:09:47.940] Browser WARN    Image with src "https://cdn.sanity.io/images/j8mqxj28/production/6518f917ab39de76c258e0caf34cb18ae3b89495-640x427.jpg?fit=max&auto=format" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:09:47.940] Browser WARN    Image with src "https://cdn.sanity.io/images/j8mqxj28/production/d98402513d960c33f5df7e23220c8f245555a3e1-1080x1080.jpg?fit=max&auto=format" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:09:47.940] Browser WARN    Image with src "https://cdn.sanity.io/images/j8mqxj28/production/cb6ae6d69cbf0f450e279e00452a302ed9df7a5b-640x427.jpg?fit=max&auto=format" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:09:47.940] Browser WARN    Image with src "https://cdn.sanity.io/images/j8mqxj28/production/4e15076ac6fd58ad142f54e4257f6352410991db-1440x960.jpg?fit=max&auto=format" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:09:47.940] Browser WARN    Image with src "https://cdn.sanity.io/images/j8mqxj28/production/ed65c16c4e2340e8218cf056f556e199c4de79fd-640x426.jpg?fit=max&auto=format" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[05:09:48.329] Browser WARN    Image with src "https://cdn.sanity.io/images/j8mqxj28/production/6518f917ab39de76c258e0caf34cb18ae3b89495-640x427.jpg?fit=max&auto=format" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[05:10:06.813] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:10:10.487] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:10:12.575] Browser WARN    Building schema for synchronization took more than 1 second (2150.10000000149ms)
