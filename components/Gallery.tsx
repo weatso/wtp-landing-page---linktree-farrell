@@ -17,7 +17,7 @@ const projects = [
     size: "normal",
   },
   {
-    src: "/image/photo/porto-3.jpg",
+    src: "/image/photo/porto-3.jpeg",
     title: "Garden Birthday Party",
     category: "Private Party",
     size: "normal",

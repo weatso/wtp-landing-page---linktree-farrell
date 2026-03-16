@@ -12,7 +12,7 @@ export default function SmoothScroll({
   const pathname = usePathname();
 
   useEffect(() => {
-    if (pathname.startsWith("/studio") || pathname.startsWith("/links")) {
+    if (pathname.startsWith("/studio") || pathname.startsWith("/link")) {
       return;
     }
 

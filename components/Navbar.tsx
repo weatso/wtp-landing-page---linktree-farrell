@@ -17,7 +17,7 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  if (pathname.startsWith("/studio") || pathname.startsWith("/links")) {
+  if (pathname.startsWith("/studio") || pathname.startsWith("/link")) {
     return null;
   }
 
@@ -40,17 +40,14 @@ export default function Navbar() {
         }`}
       >
         <div className="max-w-[1400px] mx-auto px-6 md:px-12 flex justify-between items-center">
-          <Link href="/" className="flex items-center gap-3">
+          <Link href="/" className="flex items-center">
             <Image
-              src="/image/logo wtp/logo-wtp.jpg"
-              alt="WTP"
-              width={36}
-              height={36}
-              className="rounded-full"
+              src="/image/logo-wtp/logo-wtp.jpg"
+              alt="WTP Logo"
+              width={52}
+              height={52}
+              className="rounded-full shadow-sm hover:scale-105 transition-transform duration-300"
             />
-            <span className="text-lg font-semibold tracking-tight text-stone-900">
-              WTP
-            </span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-10">

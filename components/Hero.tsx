@@ -20,7 +20,7 @@ export default function Hero() {
       {/* Background image with overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/image/photo/porto-3.jpg"
+          src="/image/photo/porto-3.jpeg"
           alt="WTP Event"
           fill
           priority
