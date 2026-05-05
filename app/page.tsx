@@ -4,7 +4,6 @@ import Services from "@/components/Services";
 import Process from "@/components/Process";
 import Gallery from "@/components/Gallery";
 import VideoReel from "@/components/VideoReel";
-import Testimonials from "@/components/Testimonials";
 import About from "@/components/About";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
@@ -19,7 +18,6 @@ export default function Home() {
       <Process />
       <Gallery />
       <VideoReel />
-      <Testimonials />
       <About />
       <FAQ />
       <Contact />
