@@ -5,17 +5,10 @@ import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
 import { 
   BadgeCheck, Play, Pause, MapPin, ExternalLink, Mail, Instagram, Twitter, 
-  Facebook, Youtube, Music2, MessageCircle, Copy, Check, Clock, Send, 
+  Facebook, Youtube, Music2, MessageCircle, Copy, Check, Clock, 
   CreditCard 
 } from 'lucide-react'
 import { urlForImage, getFileUrl } from '@/sanity/lib/image'
-import { Poppins } from 'next/font/google'
-
-const poppins = Poppins({
-  weight: ['400', '500', '600', '700', '800', '900'],
-  subsets: ['latin'],
-  display: 'swap',
-})
 
 const socialIcons: any = {
   email: Mail,
@@ -155,46 +148,7 @@ const BankCard = ({ data }: { data: any }) => {
   )
 }
 
-// ─── Newsletter Component ───
-const NewsletterBox = () => {
-  const [email, setEmail] = useState('')
-  const [status, setStatus] = useState<'idle' | 'loading' | 'success'>('idle')
 
-  const handleSubmit = (e: any) => {
-    e.preventDefault()
-    setStatus('loading')
-    setTimeout(() => {
-      setStatus('success')
-      setEmail('')
-      setTimeout(() => setStatus('idle'), 3000)
-    }, 1500)
-  }
-
-  return (
-    <div className="w-full bg-white text-gray-900 rounded-2xl p-6 mb-4 shadow-xl">
-      <h3 className="text-lg font-bold mb-1">Exclusive Newsletter</h3>
-      <p className="text-xs text-gray-500 mb-4">Dapatkan info promo dan inspirasi event setiap minggunya.</p>
-      
-      <form onSubmit={handleSubmit} className="flex gap-2">
-        <input 
-          type="email" 
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          placeholder="your@email.com"
-          required
-          className="flex-1 bg-gray-100 rounded-xl px-4 text-sm outline-none focus:ring-2 focus:ring-pink-400"
-        />
-        <button 
-          disabled={status !== 'idle'}
-          className="bg-gray-900 text-white p-3 rounded-xl hover:bg-black transition-all disabled:opacity-50"
-        >
-          {status === 'loading' ? <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" /> : 
-            status === 'success' ? <Check className="w-5 h-5" /> : <Send className="w-5 h-5" />}
-        </button>
-      </form>
-    </div>
-  )
-}
 
 // ─── Main View ───
 export default function LinktreeView({ data }: { data: any }) {
@@ -297,8 +251,7 @@ export default function LinktreeView({ data }: { data: any }) {
   const primaryLinks = data.links?.filter((l: any) => l.type !== 'portfolio' && l.isActive) || []
 
   const fontClass = data.fontFamily === 'serif' ? 'font-serif' : 
-                   data.fontFamily === 'mono' ? 'font-mono' : 
-                   data.fontFamily === 'poppins' ? poppins.className : 'font-sans'
+                   data.fontFamily === 'mono' ? 'font-mono' : 'font-sans'
 
   return (
     <div 
@@ -516,7 +469,7 @@ export default function LinktreeView({ data }: { data: any }) {
                 // Widgets
                 if (link.type === 'countdown') return <CountdownTimer key={link._key} targetDate={link.countdownDate} />
                 if (link.type === 'bank') return <BankCard key={link._key} data={link} />
-                if (link.type === 'newsletter') return <NewsletterBox key={link._key} />
+
 
                 // Standard Link — Radeva: p-[18px] text-[15px]
                 return (

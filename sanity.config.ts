@@ -1,25 +1,23 @@
-'use client'
+import { defineConfig } from 'sanity'
+import { structureTool } from 'sanity/structure'
+import { colorInput } from '@sanity/color-input'
+import { schema } from './sanity/schemaTypes'
+import { projectId, dataset } from './sanity/env'
+import React from 'react'
 
-/**
- * This configuration is used to for the Sanity Studio that’s mounted on the `\app\studio\[[...tool]]\page.tsx` route
- */
-
-import {defineConfig} from 'sanity'
-import {colorInput} from '@sanity/color-input'
-import {structureTool} from 'sanity/structure'
-
-// Go to https://www.sanity.io/docs/api-versioning to learn how API versioning works
-import {apiVersion, dataset, projectId} from './sanity/env'
-import {schema} from './sanity/schemaTypes'
+const CustomLogo = () => React.createElement('img', {
+  src: '/image/logo-wtp/logo-wtp.jpg',
+  alt: 'WTP Logo',
+  style: { width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }
+})
 
 export default defineConfig({
   basePath: '/studio',
   projectId,
   dataset,
-  // Add and edit the content schema in the './sanity/schemaTypes' folder
+  title: 'WTP Event Organizer',
+  icon: CustomLogo,
+
   schema,
-  plugins: [
-    structureTool(),
-    colorInput(),
-  ],
+  plugins: [structureTool(), colorInput()],
 })

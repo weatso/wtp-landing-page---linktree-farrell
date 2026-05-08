@@ -6,26 +6,10 @@ export const linktreeSettingsType = defineType({
   type: 'document',
   groups: [
     { name: 'content', title: '1. Konten Utama', default: true },
-    { name: 'appearance', title: '2. Tampilan & Desain' },
-    { name: 'seo', title: '3. SEO & Metadata' },
+    { name: 'portfolio', title: '2. Portofolio' },
+    { name: 'appearance', title: '3. Tampilan & Desain' },
   ],
   fields: [
-    // --- SEO ---
-    defineField({
-      name: 'seoTitle',
-      title: 'Meta Title (SEO)',
-      description: 'Judul yang muncul di tab browser (misal: Links | Radeva Organizer)',
-      type: 'string',
-      group: 'seo',
-    }),
-    defineField({
-      name: 'seoDescription',
-      title: 'Meta Description (SEO)',
-      description: 'Deskripsi singkat web untuk pencarian Google.',
-      type: 'text',
-      group: 'seo',
-    }),
-
     // --- KONTEN UTAMA ---
     defineField({
       name: 'headerBanner',
@@ -123,16 +107,14 @@ export const linktreeSettingsType = defineType({
           type: 'object',
           fields: [
             defineField({name: 'title', title: 'Title / Teks', type: 'string'}),
-            defineField({name: 'url', title: 'URL Target', type: 'url', validation: (Rule) => Rule.uri({allowRelative: true}), hidden: ({parent}) => parent?.type === 'divider' || parent?.type === 'newsletter' || parent?.type === 'countdown' || parent?.type === 'bank'}),
+            defineField({name: 'url', title: 'URL Target', type: 'url', validation: (Rule) => Rule.uri({allowRelative: true}), hidden: ({parent}) => parent?.type === 'divider' || parent?.type === 'countdown' || parent?.type === 'bank'}),
             defineField({
               name: 'type',
               title: 'Format Link',
               type: 'string',
               options: { list: [
                 {title: 'Normal Button Link', value: 'link'},
-                {title: 'Portfolio Grid Image', value: 'portfolio'},
                 {title: 'Section Divider (Teks Pemisah)', value: 'divider'},
-                {title: 'Newsletter Subscribe Box', value: 'newsletter'},
                 {title: 'Countdown Timer Widget', value: 'countdown'},
                 {title: 'Rekening / Kado Digital Widget', value: 'bank'},
               ], layout: 'radio' },
@@ -148,7 +130,7 @@ export const linktreeSettingsType = defineType({
             defineField({name: 'bankAccountName', title: 'Atas Nama', type: 'string', hidden: ({parent}) => parent?.type !== 'bank'}),
 
             // Link Fields
-            defineField({name: 'icon', title: 'Icon (Opsional)', type: 'image', hidden: ({parent}) => parent?.type === 'divider' || parent?.type === 'newsletter' || parent?.type === 'countdown' || parent?.type === 'bank'}),
+            defineField({name: 'icon', title: 'Icon (Opsional)', type: 'image', hidden: ({parent}) => parent?.type === 'divider' || parent?.type === 'countdown' || parent?.type === 'bank'}),
             defineField({name: 'badgeText', title: 'Teks Badge (Contoh: PROMO, NEW)', type: 'string', hidden: ({parent}) => parent?.type !== 'link'}),
             defineField({name: 'badgeColor', title: 'Warna Badge', type: 'string', options: {list: ['merah', 'hijau', 'biru', 'kuning']}, initialValue: 'merah', hidden: ({parent}) => !parent?.badgeText}),
             defineField({name: 'isHighlighted', title: 'Highlight Animasi Kelap-Kelip?', type: 'boolean', initialValue: false, hidden: ({parent}) => parent?.type !== 'link'}),
@@ -161,7 +143,7 @@ export const linktreeSettingsType = defineType({
       name: 'footerText',
       title: 'Footer Text',
       type: 'string',
-      initialValue: 'WTP Event Organizer',
+      initialValue: '#YourPartnerWedding',
       group: 'content',
     }),
 
@@ -188,8 +170,12 @@ export const linktreeSettingsType = defineType({
     }),
     defineField({
       name: 'verifiedBadgeColor',
-      title: 'Warna Ikon Verified',
+      title: 'Warna Ikon Verified (Centang)',
+      description: 'Pilih warna ikon centang verified di samping nama profil.',
       type: 'color',
+      options: {
+        disableAlpha: true,
+      },
       group: 'appearance',
     }),
     defineField({
@@ -236,8 +222,7 @@ export const linktreeSettingsType = defineType({
       type: 'string',
       options: {
         list: [
-          {title: 'Modern (Inter)', value: 'sans'},
-          {title: 'Poppins (Semi-Round)', value: 'poppins'},
+          {title: 'Modern (Sans-serif)', value: 'sans'},
           {title: 'Klasik/Elegan (Serif)', value: 'serif'},
           {title: 'Mesin Tik (Mono)', value: 'mono'},
         ]
@@ -287,19 +272,50 @@ export const linktreeSettingsType = defineType({
       initialValue: 'rounded-full',
       group: 'appearance',
     }),
-    defineField({
-      name: 'profileShape',
-      title: 'Bentuk Foto Profil',
-      type: 'string',
-      options: {
-        list: [
-          {title: 'Lingkaran', value: 'rounded-full'},
-          {title: 'Tumpul', value: 'rounded-2xl'},
-          {title: 'Kotak', value: 'rounded-none'},
+      defineField({
+        name: 'profileShape',
+        title: 'Bentuk Foto Profil',
+        type: 'string',
+        options: {
+          list: [
+            {title: 'Lingkaran', value: 'rounded-full'},
+            {title: 'Tumpul', value: 'rounded-2xl'},
+            {title: 'Kotak', value: 'rounded-none'},
+          ]
+        },
+        initialValue: 'rounded-full',
+        group: 'appearance',
+      }),
+      defineField({
+        name: 'portfolioLayout',
+        title: 'Layout Portofolio',
+        description: 'Pilih bagaimana foto portofolio ditampilkan.',
+        type: 'string',
+        options: {
+          list: [
+            {title: 'Grid (Kotak-kotak)', value: 'grid'},
+            {title: 'Carousel (Geser)', value: 'carousel'},
+          ]
+        },
+        initialValue: 'grid',
+        group: 'portfolio',
+      }),
+      defineField({
+        name: 'portfolioItems',
+        title: 'Daftar Portofolio',
+        description: 'Tambah koleksi foto terbaik Anda di sini.',
+        type: 'array',
+        group: 'portfolio',
+        of: [
+          {
+            type: 'object',
+            fields: [
+              defineField({name: 'title', title: 'Judul / Keterangan', type: 'string'}),
+              defineField({name: 'image', title: 'Gambar', type: 'image', options: { hotspot: true }}),
+              defineField({name: 'url', title: 'Link (Opsional)', type: 'url', description: 'Link jika gambar diklik'}),
+            ]
+          }
         ]
-      },
-      initialValue: 'rounded-full',
-      group: 'appearance',
-    }),
-  ],
-})
+      }),
+    ],
+  })
