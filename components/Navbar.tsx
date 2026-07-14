@@ -64,7 +64,9 @@ export default function Navbar() {
 
           <div className="flex items-center gap-6">
             <Link
-              href="#contact"
+              href="https://api.whatsapp.com/send/?phone=6282225269942&text=Halo+WTP+ORGANIZER%0Amau+tanya+pricelist+untuk+acara+%E2%80%A6.+dengan+jumlah+tamu+%E2%80%A6.+%2C+terimakasih%21&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hidden md:inline-flex text-[13px] font-medium uppercase tracking-[0.15em] bg-[#fdbcd6] text-stone-900 px-6 py-2.5 rounded-full hover:bg-[#f5a8c4] transition-colors duration-300"
             >
               Contact
@@ -111,7 +113,9 @@ export default function Navbar() {
                 </Link>
               ))}
               <Link
-                href="#contact"
+                href="https://api.whatsapp.com/send/?phone=6282225269942&text=Halo+WTP+ORGANIZER%0Amau+tanya+pricelist+untuk+acara+%E2%80%A6.+dengan+jumlah+tamu+%E2%80%A6.+%2C+terimakasih%21&type=phone_number&app_absent=0"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMenuOpen(false)}
                 className="mt-4 text-3xl font-medium text-stone-900 hover:text-stone-500 transition-colors"
               >
